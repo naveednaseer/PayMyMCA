@@ -17,7 +17,7 @@ export default function Benefits() {
         <div className="flex justify-center items-center">
           <div className="max-w-xl">
             <h2 className="font-bold text-4xl mb-6 leading-normal">
-            <span className="text-blue-gradient">Benefits</span> to you
+              <span className="text-blue-gradient">Benefits</span> to you
             </h2>
             <ul className="my-6">
               <li className="mb-6 text-xl">
@@ -41,7 +41,7 @@ export default function Benefits() {
               <li className="mb-6 text-xl">
                 <span className="font-black">
                   <RiNumber3 className="text-primary inline mr-2" />
-                  Save time  &nbsp;
+                  Save time &nbsp;
                 </span>
                 and focus on your business growth
               </li>
@@ -52,10 +52,9 @@ export default function Benefits() {
                   <RiNumber4 className="text-primary inline mr-2" />
                   Escape &nbsp;
                 </span>
-                  bankruptcy!
+                bankruptcy!
               </li>
               <br></br>
-
             </ul>
           </div>
         </div>

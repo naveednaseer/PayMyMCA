@@ -5,8 +5,6 @@ import SecondaryButton from "../buttons/SecondaryButton";
 import form_asset2 from "../../images/illustrations/form_asset2.png";
 import Menus from "../Navbar/Menus";
 
-
-
 const HomeForm = () => {
   const [step, setStep] = useState(1);
   const [formFilled, setFormFilled] = useState(false);
@@ -46,8 +44,6 @@ const HomeForm = () => {
   const formHandler = (e) => {
     e.preventDefault();
     // https://sheetdb.io/api/v1/xgzpyun4r2nvn
-    
-
 
     fetch("https://sheetdb.io/api/v1/f1071gwgu1a9a", {
       method: "POST",
@@ -184,7 +180,7 @@ const HomeForm = () => {
                           $
                           {formData.debtAmount == 5000000
                             ? formData.debtAmount
-                                .toString() 
+                                .toString()
                                 .replace(/\B(?=(\d{3})+(?!\d))/g, ",") + "+"
                             : formData.debtAmount
                                 .toString()

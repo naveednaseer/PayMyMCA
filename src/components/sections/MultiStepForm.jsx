@@ -5,7 +5,6 @@ import SecondaryButton from "../buttons/SecondaryButton";
 import Menus from "../Navbar/Menus";
 import pmmlogo from "../../images/pmmlogo.svg";
 
-
 export default function MultiStepForm() {
   const [step, setStep] = useState(1);
   const [formFilled, setFormFilled] = useState(false);
@@ -117,9 +116,8 @@ export default function MultiStepForm() {
       setFormFilled(true);
     }, 6000);
 
-    // fetch('https://sheetdb.io/api/v1/prwzx91tkybe5', {
-      // https://sheetdb.io/api/v1/e8ykvrrqmrol1
-      
+
+
     fetch("https://sheetdb.io/api/v1/smkx04szpwcx3", {
       method: "POST",
       headers: {
@@ -132,7 +130,7 @@ export default function MultiStepForm() {
     })
       .then((response) => response.json())
       .then((data) => console.log(data));
-  }; 
+  };
 
   return (
     <section>
@@ -150,14 +148,14 @@ export default function MultiStepForm() {
       {isLoading ? (
         <div className="fixed z-10 inset-0 flex items-center justify-center">
           <Fade up>
-          <div className="bg-white bg-opacity-10 backdrop-filter backdrop-blur-md border border-gray-300  p-40 rounded-xl shadow-xl text-center">
-            <div className="mb-20">
-              <div className="animate-ping  rounded-full h-20 w-20 border-8 border-blue-500 mx-auto"></div>
+            <div className="bg-white bg-opacity-10 backdrop-filter backdrop-blur-md border border-gray-300  p-40 rounded-xl shadow-xl text-center">
+              <div className="mb-20">
+                <div className="animate-ping  rounded-full h-20 w-20 border-8 border-blue-500 mx-auto"></div>
+              </div>
+              <p className="text-xl font-bold">Please stand by...</p>
+              <p className="mt-8">Evaluating best options</p>
             </div>
-            <p className="text-xl font-bold">Please stand by...</p>
-            <p className="mt-8">Evaluating best options</p>
-          </div>
-        </Fade>
+          </Fade>
         </div>
       ) : (
         <div className="hidden"></div>
