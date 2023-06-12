@@ -1,8 +1,6 @@
 import React from 'react';
 import { FaWindows, FaLinux, FaAppStore, FaAndroid } from 'react-icons/fa';
 
-import globoCrypto from '../../images/illustrations/globe.png';
-import hero_wallet from '../../images/illustrations/hero_wallet.png';
 import hero from '../../images/illustrations/hero.png';
 import PrimaryButton from '../buttons/PrimaryButton';
 

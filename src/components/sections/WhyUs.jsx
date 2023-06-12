@@ -1,9 +1,5 @@
 import React from 'react';
 import { BsCheckCircleFill } from 'react-icons/bs';
-
-import SecondaryButton from '../buttons/SecondaryButton'
-
-import creditCard from "../../images/illustrations/credit-card.png";
 import flying_rocket from "../../images/illustrations/flying_rocket.png";
 
 import { Fade } from 'react-reveal';

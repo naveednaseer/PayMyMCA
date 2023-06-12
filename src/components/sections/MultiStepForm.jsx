@@ -2,11 +2,9 @@ import React, { useState } from "react";
 import { Fade } from "react-reveal";
 import PrimaryButton from "../buttons/PrimaryButton";
 import SecondaryButton from "../buttons/SecondaryButton";
-import Select from "../Select";
-import form_img from "../../images/illustrations/form_img.png";
 import Menus from "../Navbar/Menus";
 import pmmlogo from "../../images/pmmlogo.svg";
-import axios from "axios";
+
 
 export default function MultiStepForm() {
   const [step, setStep] = useState(1);

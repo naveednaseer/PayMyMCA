@@ -5,7 +5,7 @@ import { RiNumber1, RiNumber2, RiNumber3, RiNumber4 } from "react-icons/ri";
 import gift from "../../images/illustrations/gift.png";
 import { Fade } from "react-reveal";
 
-export default function SecuritySection() {
+export default function Benefits() {
   return (
     <section id="benefits" className="container mx-auto px-10 py-10">
       <div className="grid md:grid-cols-2">

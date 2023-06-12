@@ -10,7 +10,7 @@ import { Fade } from 'react-reveal';
 
 
 
-export default function StepSection() {
+export default function Clients() {
   return (
     <section id='clients' className="px-6">
       <div className='rounded-3xl bg-gradient-to-b from-[#FFFFFF] to-[#F4F9FF] py-20'>

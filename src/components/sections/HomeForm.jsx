@@ -2,10 +2,10 @@ import React, { useState } from "react";
 import { Fade } from "react-reveal";
 import PrimaryButton from "../buttons/PrimaryButton";
 import SecondaryButton from "../buttons/SecondaryButton";
-import Select from "../Select";
 import form_asset2 from "../../images/illustrations/form_asset2.png";
 import Menus from "../Navbar/Menus";
-import logo from "../../images/logo.svg";
+
+
 
 const HomeForm = () => {
   const [step, setStep] = useState(1);
