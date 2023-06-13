@@ -5,7 +5,7 @@ import Index from "./pages/index";
 import Form from "./pages/Form";
 import Footer from "./components/Footer";
 
-function App() {
+function App() { 
   return (
     <BrowserRouter>
       <Routes>
