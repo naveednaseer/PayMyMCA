@@ -1,5 +1,5 @@
 import React from "react";
-import Layout from "../components/layout";
+import Layout from "../components/Layout";
 import HeroSection from "../components/sections/HeroSection";
 import PartnerSection from "../components/sections/PartnerSection";
 import WhyUs from "../components/sections/WhyUs";
