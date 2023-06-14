@@ -21,7 +21,7 @@ export default function HeroSection() {
             <StarParticle className="absolute top-0 right-0" />
             <PurpleCircleParticle className="absolute bottom-0 -left-12" />
 
-            <p className="text-primary">BYE-BYE MCA DEBT</p>
+            <p className="text-primary">BBBYE-BBBYE MCA DEBT</p>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-normal">
               You're paying <br />
               <span className="text-blue-gradient">too much</span>
